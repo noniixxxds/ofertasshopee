@@ -1,9 +1,9 @@
 
 import React, { useMemo } from 'react';
-import { TV_PRODUCTS } from './constants';
-import Header from './components/Header';
-import ProductCard from './components/ProductCard';
-import Footer from './components/Footer';
+import { TV_PRODUCTS } from './constants.ts';
+import Header from './components/Header.tsx';
+import ProductCard from './components/ProductCard.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   // Apply highlight logic to all products

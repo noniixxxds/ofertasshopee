@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { Product } from '../types';
-import Badge from './Badge';
+import { Product } from '../types.ts';
+import Badge from './Badge.tsx';
 
 interface ProductCardProps {
   product: Product;
